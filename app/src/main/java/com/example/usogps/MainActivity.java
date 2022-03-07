@@ -71,9 +71,12 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 intent.setType("text/plain");
                 intent.setPackage("com.whatsapp");
                 intent.putExtra(Intent.EXTRA_TEXT,
-                        "Hola, te adjunto mi ubicación: https://maps.google.com/?q="+Latitud+Longitud);
-                startActivity(intent);
-
+                        "Hola, te adjunto mi ubicación: https://maps.google.com/?q="+Latitud.getText().toString()+","+Longitud.getText().toString());
+                try {
+                    startActivity(intent);
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
 
             }
         });
