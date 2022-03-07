@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UsoGPS</string>
+    <string name="latitude">latitud</string>
+    <string name="use_location">location</string>
+    <string name="use_address">Direccion</string>
+    <string name="fetch">Encontrar Ubicacion</string>
+    <string name="longitude">Lactitud</string>
+    <string name="address">Direccion</string>
+    <string name="longitu">Longitud</string>
+</resources>
